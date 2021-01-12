@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title></title>
+  </head>
+  <body>
+    <form name="form1" action="#" id="myform"> 
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" id="fname" required><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname"id="lname" required><br>
+      Radio Button: <input type="radio" id="myRadio" name="test" required><br>
+      <select id="drop" required><br>
+        <option></option>
+        <option value="volvo">1</option>
+        <option value="saab">2</option>
+      </select>
+      <div class="mail">
+        <h2>Input an email and Submit</h2>
+        <ul>
+        <li><input type='text' name='text1'/></li>
+        <li class="submit"><input type="submit" name="submit" value="Submit" onclick="ValidateEmail(document.form1.text1)"/></li>
+        </ul>
+        </form>
+        </div>
+    </form>    
+    <script src="first.js"></script>
+  </body>
+</html>
